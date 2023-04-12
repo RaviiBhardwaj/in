@@ -43,7 +43,7 @@
   animation: typing 2.5s steps(13), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 5px solid darkviolet;
+  border-right: 5px solid white;
   font-family: monospace;
   font-size: 2em;
 }
@@ -61,10 +61,8 @@
 }
 
 .typing-demo h2{
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #00acee;
   padding-bottom: 5px;
   margin-bottom: 0px;
   margin-top: 0px;
